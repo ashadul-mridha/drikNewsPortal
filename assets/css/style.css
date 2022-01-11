@@ -15,6 +15,7 @@ p{
 ul{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 ul li{
     padding: 0;
@@ -28,6 +29,8 @@ ul li{
     display: flex;
     flex-direction: column;
     margin-right: 20px;
+    border-left: 1px solid rebeccapurple;
+    padding-left: 5px;
 }
 
 .header-date span{
@@ -82,4 +85,95 @@ header .social-icon div i{
     font-size: 0.9rem;
     color: #ffffff;
     font-weight: 300;
+}
+
+/* header navbar  */
+header nav{
+    padding-top: 5px;
+    border-top: 1px solid black;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li{
+    border-left: 2px solid rebeccapurple;
+   padding: 5px 8px 5px 10px;
+}
+
+header nav ul li a{
+    color: gray;
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+header nav ul li i{
+    margin-left: 8px;
+}
+
+/* header end  */
+
+/* hero start  */
+.hero-section{
+    background-image: url('../image/hero-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content{
+    background-color: rgba(245, 49, 49, 0.301);
+    padding: 30px 30px 35px 15px
+}
+.hero-content p{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.hero-content hr{
+    color: #ffffff;
+    padding: 2px 0px;
+
+}
+.hero-content h2{
+    color: #ffffff;
+    font-size: 2rem;
+    padding-bottom: 60px;
+}
+
+/* top news  */
+.author{
+    text-decoration: none;
+    color: #666666;
+    border-top: 1px solid #666666;
+}
+.see-more{
+    padding: 2px 5px;
+    background-color: #ffffff;
+    color: #666666;
+}
+
+/* recent news slider  */
+.recent-news-slider .card{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 10px 30px;
+}
+.recent-news-slider{
+    position: relative;
+}
+button.slick-prev.pull-left.slick-arrow {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border: none;
+    font-size: 1rem;
+}
+button.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border: none;
+    font-size: 1rem;
 }
