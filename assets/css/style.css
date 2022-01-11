@@ -177,3 +177,44 @@ button.slick-next.pull-right.slick-arrow {
     border: none;
     font-size: 1rem;
 }
+
+/* bohusor  */
+.bohusor-title{
+    color: gray;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.bohusor-author{
+    color: gray;
+    font-size: 1rem;
+    border-bottom: 1px solid red;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+
+/* international */
+.international-right-content{
+    position: absolute;
+}
+.international-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.294);
+    color: white;
+    padding: 5px;
+}
+.international-content a{
+    border-bottom: 1px solid red;
+    color: white;
+}
+
+.international-right{
+    padding-left: 35px;
+    border-right: 3px solid gray;
+}
+
+/* boithoki */
