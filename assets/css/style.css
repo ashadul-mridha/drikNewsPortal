@@ -242,3 +242,28 @@ footer .social-icon div i{
 .swiperbgimg2{
     background-image: url('https://swiperjs.com/demos/images/nature-2.jpg');
 }
+
+
+
+/* category page  */
+.category-hero-content a{
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid red;
+    padding-bottom: 8px;
+}
+.category-hero-content h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+.category-hero-content p{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.top-category .category{
+    border-top: 2px solid black;
+    padding: 10px 5px;
+}
