@@ -267,3 +267,26 @@ footer .social-icon div i{
     border-top: 2px solid black;
     padding: 10px 5px;
 }
+
+/* inner page  */
+.news-info span{
+    padding: 3px 5px;
+    border-left: 1px solid red;
+    margin-top: 10px;
+    display: block;
+}
+
+.border-right{
+    padding: 3px 5px;
+    border-right: 1px solid red;
+}
+
+.border-left{
+    padding: 3px 5px;
+    border-left: 1px solid red;
+}
+
+.border-bottom{
+    padding: 5px 3px;
+    border-bottom: 1px solid white;
+}
