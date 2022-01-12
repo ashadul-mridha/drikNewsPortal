@@ -92,14 +92,8 @@ header nav{
     padding-top: 5px;
     border-top: 1px solid black;
 }
-header nav ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 header nav ul li{
     border-left: 2px solid rebeccapurple;
-   padding: 5px 8px 5px 10px;
 }
 
 header nav ul li a{
@@ -218,3 +212,33 @@ button.slick-next.pull-right.slick-arrow {
 }
 
 /* boithoki */
+
+footer ul > li > a{
+    text-decoration: none;
+}
+
+footer .social-icon{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+footer .social-icon div{
+    border: 1px solid gray;
+    margin-left: 10px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+footer .social-icon div i{
+    color: gray;
+}
+/* menu{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.swiperbgimg{
+    background-image: url('https://swiperjs.com/demos/images/nature-1.jpg');
+}
+.swiperbgimg2{
+    background-image: url('https://swiperjs.com/demos/images/nature-2.jpg');
+}
